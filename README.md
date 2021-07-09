@@ -125,13 +125,16 @@ status = 200
 ✅ Redux
 
 1. Установить пакет
-   npm install redux
+
+    npm install redux
 
 2.Установить пакет
-npm install react-redux
+
+    npm install react-redux
 
 3.Redux DevTools (❗️ если без Redux Toolkit)
-npm install --save-dev redux-devtools-extension
+
+    npm install --save-dev redux-devtools-extension
 
 3.1 .Импортировать в store и добавить в функцию (1.3 пункт гайда)
 
@@ -139,12 +142,14 @@ npm install --save-dev redux-devtools-extension
 
     const store = createStore(reducer, composeWithDevTools());
 
-4. Установить Redux Toolkit:
+4.Установить Redux Toolkit:
 
-   npm install @reduxjs/toolkit
+    npm install @reduxjs/toolkit
 
 5.Для сохранения в localStorage:
-npm install redux-persist
+
+    npm install redux-persist
 
 6.Logger
-npm i --save redux-logger
+
+    npm i --save redux-logger
