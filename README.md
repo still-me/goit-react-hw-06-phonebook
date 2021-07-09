@@ -50,7 +50,7 @@
 ✅  Оптимизированый путь к папке src
 
 1.  Создать файл jsconfig.json
-2.                       {
+2.                                {
                 "compilerOptions": {
                     "baseUrl": "src"
                 },
@@ -130,11 +130,21 @@ status = 200
 2.Установить пакет
 npm install react-redux
 
-3.Redux DevTools
+3.Redux DevTools (❗️ если без Redux Toolkit)
 npm install --save-dev redux-devtools-extension
 
-4.Импортировать в store и добавить в функцию (1.3 пункт гайда)
+3.1 .Импортировать в store и добавить в функцию (1.3 пункт гайда)
 
-import { composeWithDevTools } from 'redux-devtools-extension';
+    import { composeWithDevTools } from 'redux-devtools-extension';
 
-const store = createStore(reducer, composeWithDevTools());
+    const store = createStore(reducer, composeWithDevTools());
+
+4. Установить Redux Toolkit:
+
+   npm install @reduxjs/toolkit
+
+5.Для сохранения в localStorage:
+npm install redux-persist
+
+6.Logger
+npm i --save redux-logger

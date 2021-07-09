@@ -1,6 +1,6 @@
 import React from "react";
-import PropTypes from "prop-types";
 import { connect } from "react-redux";
+import PropTypes from "prop-types";
 
 import "./ContactList.scss";
 import * as contactsActions from "../../redux/contacts/contacts-actions";
